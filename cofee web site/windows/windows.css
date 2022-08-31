@@ -1,0 +1,46 @@
+*{
+    margin: 50px 250px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.top-left{
+margin: 4px;
+position: relative;
+top: 95px;
+right: 20px;
+left: 25px;
+}
+
+.top-right{
+    position: relative;
+    top: -8px;
+    left: 150px;
+    bottom: 10px;
+    margin: 4px;
+}
+
+.bottom-left{
+    position: relative;
+    top: 10px;
+    margin: 4px;
+    transform: translateX(30px);
+}
+
+.bottom-right{
+    position: relative;
+    top: 10px;
+    left: 150px;
+    transform: translateY(-100px);
+    
+}
